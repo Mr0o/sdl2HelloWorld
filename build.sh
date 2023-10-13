@@ -7,4 +7,4 @@ make
 cd ..
 
 echo ""
-echo "Output file: "
+echo "Output file: sdl2_hello_world.bin"
