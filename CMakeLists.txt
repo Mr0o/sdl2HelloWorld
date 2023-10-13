@@ -33,3 +33,4 @@ if(UNIX)
         PROPERTIES 
         SUFFIX ".bin"
     )
+endif()
