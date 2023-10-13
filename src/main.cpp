@@ -21,11 +21,11 @@ int main(int argc, char* argv[]){
     SDL_Window* window = SDL_CreateWindow("Hello World! - Mr0o", SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED, x, y, SDL_WINDOW_RESIZABLE | SDL_WINDOW_SHOWN);
     SDL_Renderer* renderer = SDL_CreateRenderer(window, -1, SDL_RENDERER_ACCELERATED);
 
-    // set the color of the window to red, and wait 3 seconds
+    // set the color of the window to red, and wait 5 seconds
     SDL_SetRenderDrawColor(renderer, 255, 0, 0, 255);
     SDL_RenderClear(renderer);
     SDL_RenderPresent(renderer);
-    SDL_Delay(3000);
+    SDL_Delay(5000);
 
     // destroy the renderer and window, then quit
     SDL_DestroyRenderer(renderer);
