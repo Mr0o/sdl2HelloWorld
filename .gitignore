@@ -1,6 +1,11 @@
 # ignore vscode files
 .vscode
 
-# ignore bin
+# ignore bin and exe
 bin
 *.bin
+*.exe
+*.dll
+
+# ignore build directory used by cmake
+build
