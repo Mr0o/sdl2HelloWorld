@@ -25,7 +25,7 @@ int main(int argc, char* argv[]){
     SDL_SetRenderDrawColor(renderer, 255, 0, 0, 255);
     SDL_RenderClear(renderer);
     SDL_RenderPresent(renderer);
-    SDL_Delay(5000);
+    SDL_Delay(crash);
 
     // destroy the renderer and window, then quit
     SDL_DestroyRenderer(renderer);
