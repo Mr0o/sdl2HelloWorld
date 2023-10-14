@@ -1,5 +1,5 @@
 // command to compile
-// Linux:   g++ -o bin/main src/main.cpp -I include -L lib -l SDL2
+// Linux:   g++ -o sdl2_hello_world.bin src/main.cpp -I include -L lib -l SDL2
 
 #include <SDL2/SDL.h>
 #include <iostream>
