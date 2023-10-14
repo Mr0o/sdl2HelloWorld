@@ -1,10 +1,3 @@
-# Script to automate the build process
-
-cmake -B build/
-
-cd build/
-make
-cd ..
-
-echo ""
-echo "Output file: sdl2_hello_world.bin"
+# configure cmake and build
+cmake -B build -DCMAKE_BUILD_TYPE=Release
+cmake --build build --config Release
