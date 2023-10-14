@@ -1,9 +1,6 @@
 // command to compile
 // Linux:   g++ -o bin/main src/main.cpp -I include -L lib -l SDL2
 
-#include <SDL2/SDL.h>
-#include <iostream>
-
 int main(int argc, char* argv[]){
     // initialize SDL
     SDL_Init(SDL_INIT_EVERYTHING);
